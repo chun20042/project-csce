@@ -1,0 +1,24 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="補間動畫 2" itemID="528a53a3-0000020a" symbolType="graphic" lastModified="1384797091">
+  <timeline>
+    <DOMTimeline name="補間動畫 2">
+      <layers>
+        <DOMLayer name="圖層 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance selected="true" libraryItemName="利昂LOGO.psd 資源/圖層15">
+                  <matrix>
+                    <Matrix a="0.189102172851563" b="-0.0651092529296875" c="0.0651092529296875" d="0.189102172851563" tx="-61.85" ty="-54.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="202.8" y="360.15"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

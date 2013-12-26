@@ -1,0 +1,42 @@
+1.________ is a  pictorial representation of an algorithm.
+
+a.A UML digram
+b.A program
+c.Pseudocode
+d.An algorithm
+Ans(a)
+
+2.In _________ sort, the smallest item from the unsorted list is swapped with the item at beginning of the unsorted list.
+
+a.selection
+b.bubble 
+c.insertion
+d.all of the above
+Ans(a)
+
+3.In a linked list, each element contains _______.
+
+a.data
+b.a link
+c.a record
+d.a and b
+
+Ans(d)
+
+4.An empty linked list consists of _______.
+
+a. a node 
+b. two nodes
+c. data and a link
+d.a null head pointer
+Ans(d)
+
+
+5.An array that consists of just rows and columns is a ____ array.
+
+a. one-dimensional
+b. two-dimensional
+c. three-dimensional
+d. multidimensional
+Ans(b)
+

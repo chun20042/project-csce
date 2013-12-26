@@ -1,0 +1,30 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="補間動畫12 4" itemID="528b5a47-00000583" symbolType="graphic" lastModified="1384864327">
+  <timeline>
+    <DOMTimeline name="補間動畫12 4">
+      <layers>
+        <DOMLayer name="圖層 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isFloating="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <BitmapFill bitmapPath="娜亞LOGO  按鈕2.png" bitmapIsClipped="false">
+                        <matrix>
+                          <Matrix a="11.59423828125" d="11.5936279296875" tx="-200" ty="-178.25"/>
+                        </matrix>
+                      </BitmapFill>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!4000 3565S2|-4000 3565!-4000 3565|-4000 -3565!-4000 -3565|4000 -3565!4000 -3565|4000 3565"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

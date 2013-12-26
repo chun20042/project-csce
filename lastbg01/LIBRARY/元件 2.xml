@@ -1,0 +1,60 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="元件 2" itemID="528a5530-00000237" symbolType="button" lastModified="1384797550" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="元件 2">
+      <layers>
+        <DOMLayer name="圖層 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="利昂LOGO.psd" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="0.199996948242188" d="0.199996948242188" tx="-213.4" ty="-330"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1067" y="1650.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="元件 1" centerPoint3DX="-0.05">
+                  <matrix>
+                    <Matrix tx="12.5" ty="-36"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-12.55" y="36"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="利昂LOGO.psd" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="0.199996948242188" d="0.199996948242188" tx="-213.4" ty="-330"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1067" y="1650.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="3" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="利昂LOGO.psd" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="0.199996948242188" d="0.199996948242188" tx="-213.4" ty="-330"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1067" y="1650.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

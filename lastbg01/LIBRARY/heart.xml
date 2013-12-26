@@ -1,0 +1,100 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="heart" itemID="528a5363-0000025d" lastModified="1384798304">
+  <timeline>
+    <DOMTimeline name="heart" currentFrame="49">
+      <layers>
+        <DOMLayer name="圖層 2" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" duration="13" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="13" duration="13" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="21" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="59" ty="-50.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="26" duration="23" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="21" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="59" ty="-50.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="49" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="21" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="59" ty="-50.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="圖層 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="13" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="book1" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="-160" ty="-120"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="160" y="120"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="13" duration="13" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="21" selected="true" symbolType="graphic" loop="loop">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="26" duration="23" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="heart.png">
+                  <matrix>
+                    <Matrix tx="-160" ty="-120"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="49" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance selected="true" libraryItemName="heart.png">
+                  <matrix>
+                    <Matrix tx="-160" ty="-120"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

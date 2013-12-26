@@ -1,0 +1,60 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="元件 4" itemID="528a595f-000002ed" symbolType="button" lastModified="1384798666" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="元件 4" currentFrame="1">
+      <layers>
+        <DOMLayer name="圖層 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="皇后(6)LOGO 按鈕2.png">
+                  <matrix>
+                    <Matrix a="0.6099853515625" d="0.6099853515625" tx="-210.45" ty="-187.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="345" y="307.55"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="元件 3" selected="true" centerPoint3DX="17">
+                  <matrix>
+                    <Matrix tx="-32.1" ty="2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="49.1" y="-2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="皇后(6)LOGO 按鈕2.png">
+                  <matrix>
+                    <Matrix a="0.6099853515625" d="0.6099853515625" tx="-210.45" ty="-187.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="345" y="307.45"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="3" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="皇后(6)LOGO 按鈕2.png">
+                  <matrix>
+                    <Matrix a="0.6099853515625" d="0.6099853515625" tx="-210.45" ty="-187.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="345" y="307.45"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

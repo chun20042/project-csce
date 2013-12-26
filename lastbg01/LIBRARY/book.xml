@@ -1,0 +1,50 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="book" itemID="528b59f8-00000572" symbolType="button" lastModified="1384864248" lastUniqueIdentifier="3">
+  <timeline>
+    <DOMTimeline name="book">
+      <layers>
+        <DOMLayer name="圖層 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="娜亞LOGO  按鈕2.png">
+                  <matrix>
+                    <Matrix a="0.5797119140625" d="0.579681396484375" tx="-200" ty="-178.25"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="heart" centerPoint3DX="111.35" centerPoint3DY="-170">
+                  <matrix>
+                    <Matrix tx="111.35" ty="-170"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="抖" selected="true" centerPoint3DX="3">
+                  <matrix>
+                    <Matrix tx="3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="3" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="娜亞LOGO  按鈕2.png">
+                  <matrix>
+                    <Matrix a="0.5797119140625" d="0.579681396484375" tx="-200" ty="-178.25"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

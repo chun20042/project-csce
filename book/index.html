@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        <title>Alogrithm</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> 
+        <meta name="description" content="Experimental Page Layout Inspired by Flipboard" />
+        <meta name="keywords" content="flip, pages, flipboard, layout, responsive, web, web design, grid, ipad, jquery, css3, 3d, perspective, transitions, transform" />
+        <meta name="author" content="" />
+        <link rel="shortcut icon" href="../favicon.ico"> 
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300,300italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+		<script type="text/javascript" src="js/modernizr.custom.08464.js"></script>
+		<script id="pageTmpl" type="text/x-jquery-tmpl">
+			<div class="${theClass}" style="${theStyle}">
+				<div class="front">
+					<div class="outer">
+						<div class="content" style="${theContentStyleFront}">
+							<div class="inner">{{html theContentFront}}</div>
+						</div>
+					</div>
+				</div>
+				<div class="back">
+					<div class="outer">
+						<div class="content" style="${theContentStyleBack}">
+							<div class="inner">{{html theContentBack}}</div>
+						</div>
+					</div>
+				</div>
+			</div>			
+		</script>
+    </head>
+    <body>
+		
+		<header class="main-title">
+			<h1>Algorithm <strong></strong></h1>
+			<p> </p>
+			<p><strong></strong></p>
+		</header>
+		
+		<div id="flip" class="container">
+		
+			<div class="f-page f-cover">
+				<div class="cover-elements">
+					
+					<h1> <span> <a href="../studying">BACK</a></span></h1>
+					
+				</div>
+				
+			</div>
+			
+			
+            
+            
+<!-- 第一頁-->       
+            <div class="f-page">
+				<div class="f-title">
+					<a href="../index.php">回首頁</a>
+					<h2>Algorithms</h2>
+					<a href="../studying.php">Back </a>
+				</div>
+				<div class="box w-50 h-50 box-b-r title-top box-img-left">
+					<div class="img-cont img-1"></div>
+					<h3>2-1  CONCEPT <span>2013/12/1</span></h3>
+					<p>Informal definition <br>
+Algorithm : a step-by-step method for solving a problem or doing a task.<br>(演算法是逐步的去解決問題在做一個任務上)</p>
+				</div>
+				<div class="box w-50 h-50 box-b-r title-top box-img-left">
+					<div class="img-cont img-2"></div>
+					<h3>Shuttle Enterprise Flight to New York <span>Published May 3, 2012</span></h3>
+					<p>在一個list(15 ,6 ,52 ,85 ,31)中找最大數。<br>
+Algorithm：首先把第一個數當作最大數，然後從第二個數開始，一個一個看並且去比較是否比第一個數還大，如果是，就把第一個數丟掉，換成較大的這個數。當所有數都看完了，最後留著的數就是最大的數。
+</p>
+				</div>
+				<div class="box w-50 h-50 title-top box-img-left">
+					<div class="img-cont img-3"></div>
+					<h3>2-2  Three constructs <span>2013/12/01</span></h3>
+					<p>I. Sequence ─ 一串指令，上個指令執行完就執行下個指令。(如左圖)<br>
+II.	Decision ─ if…them…else，判斷一個條件，若條件為真(true)則執行某些指令，若條件為假(false)則執行另一些指令。 <br>
+III. Repetition ─ for迴圈：重複執行某些指令某個次數
+           While迴圈：判斷某個條件，若條件為真則繼續執行回圈內的指令。使用這三種constructs使得演算法(algorithm)更容易去了解,除錯(debug),或更換(change)
+</p>
+				</div>
+				<div class="box w-50 h-50 title-top box-img-left">
+<div class="img-cont img-4"></div>
+					<h3> 2-3  Algorithm Representation<span>2013/12/01</span></h3>
+					<p>I.UML (unified modeling language) 
+─ 可視為一種流程圖。<br>
+II.	Pseudocode(虛擬碼)
+</p>
+				</div>
+				
+			</div>
+			
+<!-- 第2頁--> 
+			<div class="f-page">
+				<div class="f-title">
+					
+                    
+                    <a href="../index.php">回首頁</a>
+					<h2>Algorithms</h2>
+					<a href="../studying">Back </a>
+
+				</div>
+				<div class="box w-50 h-50 title-top box-img-left">
+				<div class="img-cont img-5"></div>	
+					<h3> <span>2013/12/01</span></h3>
+					<p>用簡潔的方法表示 sequence decision Repetition</p>
+				</div>
+				<div class="box w-50 h-50 title-top">
+					
+					<h3>EXAMPLE <span>2013/12/01</span></h3>
+<p>Ex2.1：<br>
+把兩個數加起來的演算法之pseudocode<br>
+Sol：<br>
+Sum of two(first,second)<br>
+sum ← first + second<br>
+return sum <br>
+
+Ex2.2：<br>
+寫一個演算法把數值的分數改為pass/no pass(>=70分為pass，否則為no pass)<br>
+Sol：<br>
+PassNoPass(score)<br>
+If score >=70<br>
+Then grade ← “pass”<br>
+else grade ←”no pass”<br>
+return grade<br>
+Ex2.3：<br>
+寫一演算法把數值分數轉為letter grade(A , B , C , D or F)
+Sol：<br>
+LetterGrade(score)<br>
+If 100>=score>=90 then grade ← ’A’<br>
+If 89>=score>=80 then grade ← ’B’<br>
+If 79>=score>=70 then grade ← ’C’<br>
+If 69>=score>=60 then grade ← ’D’<br>
+If 59>=score>=0 then grade ← ’F’<br>
+return grade
+
+</p>
+				</div>
+				<div class="box w-50 h-50 box-b-r title-top">
+					<h3>Example<span>2013/12/01</span></h3>
+					<p>Ex2.4：<br>
+寫一演算法在一串數字中找最大的數(數字的個數未知)<br>
+Sol：<br>
+FindLangest(list)<br>
+langest ← -∞<br>
+while (more integers to check)<br>
+     current ← next  integer<br>
+     if current > langest then langest ← current
+end while<br>
+return langest<br>
+
+Ex2.5：<br>
+寫一演算法在一串數字的前1000個中找最大的數<br>
+Sol：<br>
+FindLangest2(A)   /* A是一個陣列，length[A]>=1000<br>
+langest ← -∞  <br>
+for i ← 1 to 1000  <br>
+	if A[ i ] > langest then langest ← A[ i ]<br>
+end for <br>
+return langest 
+</p>
+				</div>
+				<div class="box w-50 h-50 box-b-r title-top">
+					
+					<h3>2-4  A more formal definition <span>2013/12/01</span></h3>
+					<p>An algorithm is a ordered set of unambiguous steps that produces a result and terminates in a finite time. <br>
+ 四個要素：<br>
+1.	ordered set ─ 有先後順序的一組指令<br>
+2.	unambliguous steps ─ 每一步驟(指令)都是明確的<br>
+3.	produce a result ─ 會產生所要的結果(將問題解決)<br>
+4.	terminate in a finite time ─ 會停止，不會無限地執行下去
+</p>
+				</div>
+			</div>
+			
+ <!-- 第3頁-->          
+			        
+                          <div class="f-page">
+				<div class="f-title">
+					
+					<a href="../index.php">回首頁</a>
+					<h2>Algorithms</h2>
+					<a href="../studying">Back </a>
+
+				</div>
+				<div class="box w-50 h-50 box-b-r title-top">
+					
+					<h3>2-5  Basic algorithms <span>2013/12/2</span></h3>
+					<p>I.Summation Input : 陣列A , 有n個元素, 每個元素包含一個數Output : 這 n 個數的和Summation (A,n) <br>
+Sol: <br>
+ Summation (A,n) <br>
+ Su, ← 0 <br>
+ for i ← 1to i   <br>
+ sum ← sum + A[i] <br>
+ end for<br>
+ return sum
+
+</p>
+				</div>
+				<div class="box w-50 h-50 box-b-r title-top">
+					
+					<h3><span>2013/12/2</span></h3>
+					<p>II.	Product <br> 
+Input : 陣列A ,有n個元素 , 每個元素包含一個數<br>
+Output : 這n個數的乘機<br>
+Sol:<br>
+Product (A , n)<br>
+	product ← 1<br>
+	for I ← 1 to n<br>
+		product ← roduct*A[i]<br>
+	end for<br>
+	return product<br>
+
+</p>
+				</div>
+				<div class="box w-50 h-50 box-b-r title-top">
+					
+					<h3> <span>2013/12/01</span></h3>
+					<p>III.	Small and Largest<br>
+Input : 陣列A 有n個元素 , 每個元素包含一個數<br>
+Output : 這n個數中最小的數與最大的數<br>
+sol:<br>
+	Smallest And Largest ( A, n)<br>
+		smallest And largest (A , n)<br>
+smallest ← A[1]<br>
+largest ← A[1]<br>
+for I ← 2 to n<br>
+	if (A[ i ] < smallest) then smallest ← A[ i ]<br>
+	if (A[ i ] < largest) then largest ← A[ i ]<br>
+end for<br>
+return smallest , largest<br>
+
+</p>
+				</div>
+				<div class="box w-50 h-50 title-top box-img-left">
+<div class="img-cont img-6"></div>
+					<h3> <span>2013/12/01</span></h3>
+					<p>IV.Sorting ─ 在這裡介紹三個 sorting algorithms<br>
+(1) selection sort ─ 從n個數中把最小的數找出來 , 再把此數與第一個數交換 , 這樣第一個數就已經排好了(因為要排成從小到大 的順序) , 剩下來n-1個數中 , 把最小的數找出來 , 再把此數根底二個數交換 ,  這樣第二個數也排好了 , 依此方法繼續作下去 , 最後就把n個數都排好<br>
+Sol : <br>
+Selection sort (A , n) <br>
+	for i ← 1 to n-1 <br>
+	index ← i <br>
+	for j ← i+1 to n <br>
+		if A [ j ] < smallest <br> 
+		then smallest ←A[ j ]  <br>
+			index ←j <br>
+	end for <br>
+A [ i ] ← A [ index ] <br>
+		   end for  <br>
+
+</p>    </div>
+  </div>
+		
+   <!-- 第4頁-->                  
+                    <div class="f-page">
+				<div class="f-title">
+					
+					<a href="../index.php">回首頁</a>
+					<h2>Algorithms</h2>
+					<a href="../studying">Back </a>
+
+				</div>
+				<div class="box w-50 h-50 title-top box-img-left">
+					<div class="img-cont img-7"></div>
+					<h3> <span>2013/12/2</span></h3>
+					<p>(2)	binary search ─ 對一串有排序的數字或資料 , 我們可以用二分搜索法較快的找到我們要的資料 <br>
+Sol: <br>
+ binary search (A , n , target) <br>
+low ← 1 <br>
+high ← n <br>
+while low <= high <br>
+	mid ← └　(low + high)/2 ┘ <br>
+	if A[ mid ] = target <br>
+	then return mid <br>
+	else if A[ mid ] > target <br>
+		then high ← mid-1 <br>
+		else low ← mid+1 <br>
+end while<br>
+return “not found”  <br>
+
+
+</p>
+				</div>
+				<div class="box w-50 h-50 title-top box-img-left">
+				<div class="img-cont img-8"></div>	
+					<h3><span>2013/12/2</span></h3>
+					<p> 
+(3) insertion sort ─ n個數中把第一個程式排好得一串數 , 然後把第二個數插入到這一串排好得數中它該在的位置 , 這樣 , 我們就有一串排好得兩個數 ; 其次再把第三個數插入這串排好得數中它該在的位置 , 此時 , 我們就有排好得三個數 , 依此法作下去 , 最後可以把n個數都排好<br>
+Sol:<br>
+Insertion sort (A , n)<br>
+				for I ← 2 to n <br>
+					key ← A [ i ] <br>
+					j ← i-1 <br>
+					while j > 0 and A[ j ] > key <br>
+						A[ j+1 ] ← A[ j ] <br>
+						j ← j-1 <br>
+					end while <br>
+				A[ j+1 ] ← key <br>
+				end for <br>
+
+</p>
+				</div>
+				<div class="box w-50 h-50 box-b-r title-top">
+					
+					<h3> <span>2013/12/01</span></h3>
+					<p>(4) other sorting algorithm 
+上面三個sorting演算法都是速度較慢(時間複雜度較高)的演算法,通常我們會用其他速度較快的演算法來排序 , 最常用的適quick sort + insertion sort , 另外的排序的演算法有heap sort , merge sort , radix sort 等
+<br>
+
+
+</p>
+				</div>
+				<div class="box w-50 h-50 title-top box-img-left">
+<div class="img-cont img-9"></div>
+					<h3> <span>2013/12/01</span></h3>
+					<p>V.	Searching 我們下面介紹兩種searching的演算法 <br>
+(1)	Sequential search ─ 對一串沒有排序的數字或資料 , 我們只有一種搜索可用 , 就是循序搜尋法
+例子(Fig 8.18 , 投影片45)
+sequential search(A , n , target) <br>
+for i ← 1 to n <br>
+	if A[ i ] = target <br>
+	then return i <br>
+end for <br>
+				return “not found”
+
+</p>
+				</div>
+                </div>
+<!-- 第5頁--> 
+			  <div class="f-page">
+				<div class="f-title">
+					
+					<a href="../index.php">回首頁</a>
+					<h2>Algorithms</h2>
+					<a href="../studying">Back </a>
+
+				</div>
+				<div class="box w-50 h-50 title-top box-img-left">
+					<div class="img-cont img-10"></div>
+					<h3><span>2013/12/2</span></h3>
+					<p>(2)	binary search ─ 對一串有排序的數字或資料 , 我們可以用二分搜索法較快的找到我們要的資料<br>
+binary search (A , n , target)<br>
+low ← 1<br>
+high ← n<br>
+while low <= high<br>
+	mid ← └　(low + high)/2 ┘ <br>
+	if A[ mid ] = target<br>
+	then return mid<br>
+	else if A[ mid ] > target<br>
+		then high ← mid-1<br>
+		else low ← mid+1<br>
+end while<br>
+return “not found” <br>
+
+
+</p>
+				</div>
+				<div class="box w-50 h-50 box-b-r title-top">
+					
+					<h3><span>2013/12/2</span></h3>
+					<p>(3)	sequential search 與 binary search 時間複雜度的比較假設有10^6筆(一百萬筆)資料 , 我們要在這些資料中搜索某一筆資料 , 則sequential search 最壞的情況需要作10^6次比較 , 平均需要做(10^6)/2次(50萬次)比較 ; 而binary search最壞只需要作 log2 106  大約等於 log2 220  = 20次比較 ; 因此兩種搜尋法差速度非常大
+
+
+</p>
+				</div>
+				<div class="box w-50 h-50 box-b-r title-top">
+					
+					<h3> <span>2013/12/01</span></h3>
+					<p>VI.	SUBLAGORITHMS
+我們在寫程式時 , 有些工作可能要作好幾次 , 我們可以把這些光作獨立出來 , 寫程副程式 , 每次要作這些工作就呼叫這個副程式 , 障樣可以使我們的程式碼比較精簡 , 不至於使幾乎一樣的一段程式碼出現在程式的好幾個地方
+
+
+</p>
+				</div>
+				<div class="box w-50 h-50 box-b-r title-top">
+					<h3> 2-7 Iteration and Recursion<span>2013/12/01</span>2013/12/01</h3>
+					<p>在演算法或寫程式中 , 有一些工作可以有兩個方法來做 :<br>
+Iteration 或 recusion 
+例如 n的階乘(n!)有兩種定義的方式
+
+
+</p>    </div>
+  </div>
+  
+  
+  
+  <!--第6頁-->
+  			  <div class="f-page">
+				<div class="f-title">
+					
+					<a href="../index.php">回首頁</a>
+					<h2>Algorithms</h2>
+					<a href="../studying">Back </a>
+
+				</div>
+				<div class="box w-50 h-50 box-b-r title-top">
+					
+					<h3><span>2013/12/2</span></h3>
+					<p>1.	Definition<br>
+(1)	Iterative definition <br>
+Factorial(n) ={&nbsp; 1  &nbsp;&nbsp;&nbsp;&nbsp; if n=0 <br>
+			 n(n-1)(n-2)*….*2*1 &nbsp;&nbsp;&nbsp;&nbsp;   if n>0 <br>
+(2)	recursive definition <br>
+Factorial(n) ={1   &nbsp;&nbsp;&nbsp;&nbsp;               if n=0 <br>
+			 n*Factorial(n-1)  &nbsp;&nbsp;&nbsp;&nbsp;    if n>0 <br>
+	因此也有兩種演算法來算n的階乘 <br>
+
+
+
+</p>
+				</div>
+				<div class="box w-50 h-50 box-b-r title-top">
+					
+					<h3><span>2013/12/2</span></h3>
+					<p>(3)2.	algorithm<br>
+(1)	Iterative definition<br>
+Factorial (n)<br>
+if &nbsp;n=0<br>
+then return&nbsp; 1<br>
+else F&nbsp; ←&nbsp; 1<br>
+	for i ← 1 to n<br>
+	F ← F*i<br>
+end for<br>
+return F
+
+
+
+</p>
+				</div>
+				<div class="box w-50 h-50 box-b-r title-top">
+					
+					<h3> <span>2013/12/01</span></h3>
+					<p>(2)	recursive algorithm<br>
+recursive definition<br>
+Factorial (n)<br>
+if n=0<br>
+then return 1<br>
+else return n*Factorial(n-1)<br>
+
+
+</p>
+				</div>
+				<div class="box w-50 h-50 box-b-r title-top">
+					<h3> </h3>
+					<p>通常, iterative algorithm比recursive algorithm 較有效率(速度較快) , 但 recursive algorithm較簡單易懂)
+
+
+
+</p>    </div>
+  </div>          
+            
+            
+            
+            
+            
+            
+            
+            <div class="f-page f-cover-back">
+				<div id="codrops-ad-wrapper">
+					
+				</div>
+			</div>
+		</div>
+			
+		
+			
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script type="text/javascript">
+				
+			var $container 	= $( '#flip' ),
+				$pages		= $container.children().hide();
+			
+			Modernizr.load({
+				test: Modernizr.csstransforms3d && Modernizr.csstransitions,
+				yep : ['js/jquery.tmpl.min.js','js/jquery.history.js','js/core.string.js','js/jquery.touchSwipe-1.2.5.js','js/jquery.flips.js'],
+				nope: 'css/fallback.css',
+				callback : function( url, result, key ) {
+					
+					if( url === 'css/fallback.css' ) {
+						$pages.show();
+					}
+					else if( url === 'js/jquery.flips.js' ) {
+						$container.flips();
+					}
+			
+				}
+			});
+				
+		</script>
+    </body>
+</html>

@@ -1,0 +1,24 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="補間動畫 11" itemID="528a5930-000002ea" symbolType="graphic" lastModified="1384798512">
+  <timeline>
+    <DOMTimeline name="補間動畫 11">
+      <layers>
+        <DOMLayer name="圖層 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance selected="true" libraryItemName="點陣圖 13">
+                  <matrix>
+                    <Matrix a="0.970306396484375" b="-0.241928100585938" c="0.241928100585938" d="0.970306396484375" tx="-105.15" ty="6.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.9" y="22.45"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

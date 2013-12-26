@@ -1,0 +1,24 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="補間動畫 14" itemID="528a5ac5-00000330" symbolType="graphic" lastModified="1384798917">
+  <timeline>
+    <DOMTimeline name="補間動畫 14">
+      <layers>
+        <DOMLayer name="圖層 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance selected="true" libraryItemName="公主LOGO  按鈕2.png">
+                  <matrix>
+                    <Matrix a="0.6099853515625" d="0.6099853515625" tx="-210.45" ty="-187.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="345" y="307.45"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

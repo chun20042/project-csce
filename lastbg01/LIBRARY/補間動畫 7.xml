@@ -1,0 +1,32 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="補間動畫 7" itemID="528a54ca-00000235" symbolType="graphic" lastModified="1384797451">
+  <timeline>
+    <DOMTimeline name="補間動畫 7">
+      <layers>
+        <DOMLayer name="圖層 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="1.psd" symbolType="graphic" centerPoint3DX="12.9" centerPoint3DY="19.1" loop="loop">
+                  <matrix>
+                    <Matrix a="0.329986572265625" d="0.329986572265625" tx="-33.3" ty="-10.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="140" y="89.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="1.psd" symbolType="graphic" centerPoint3DX="8.9" centerPoint3DY="-18.9" loop="loop">
+                  <matrix>
+                    <Matrix a="0.489990234375" d="0.489990234375" tx="-59.7" ty="-62.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="140" y="89.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,249 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>無標題文件</title>
+<style>
+body{margin:0px;}
+#wapper{margin:auto;
+	
+	position: absolute;
+	width:1200px;
+	left:50%;
+	margin-left:-571px;}
+	#bg{height:800px; margin:0px;
+	position: absolute;margin:auto;
+	z-index:1;}
+	#bg img{height:800px}
+	#left{
+		position:absolute;
+		height:880px;
+		top:130px;
+		z-index:2;}
+		#bg img{height:800px}
+	#right_m{
+		display:none;
+		position:absolute;
+		height:880px;
+		width:800px;
+		top:80px;
+		left:260px;
+		z-index:6;}
+		#right{
+			position:absolute;
+				top:250px;
+			left:780px;
+		height:600px;
+		width:300px;
+		z-index:2;}
+		#left_m{
+		display:none;
+		position:absolute;
+		height:880px;
+		width:800px;
+		top:30px;
+		left:240px;
+		z-index:6;}
+		#question{
+			position:absolute;
+			left:400px;
+			z-index:4;
+			}
+			#question1{
+			position:absolute;
+			left:455px;
+			top:80px;
+			z-index:5;
+			color:#FFF;
+			font-size:28px;
+			}
+			#ans1{
+	position: absolute;
+	left: 100px;
+	top: 150px;
+	z-index: 5;
+	color: #FFF;
+	font-size: 28px;
+	height: 34px;
+			}
+			#ans2{
+			position:absolute;
+			left:100px;
+			top:200px;
+			z-index:5;
+			color:#FFF;
+			font-size:28px;
+			
+			}
+			#ans3{
+			position:absolute;
+			left:100px;
+			top:250px;
+			z-index:5;
+			color:#FFF;
+			font-size:28px;
+			
+			}
+			#ans4{
+			position:absolute;
+			left:100px;
+			top:300px;
+			z-index:5;
+			color:#FFF;
+			font-size:28px;
+			
+			}
+			
+</style>
+<script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+<script>
+$(document).ready(function(){
+	$('#ans1').click(function(){
+		
+		if($(this).attr('value')==1){
+			$('#left_m').show();
+			$('#left_m').delay(2500).animate({
+					opacity:0
+					},1000);
+				$('#left_m').css(
+					"opacity","1"
+					);	
+				$('#left_m').hide(2000);	
+				$('#wapper').delay(2700).animate({opacity:0.3});
+				$('#wapper').delay(10).animate({opacity:1});
+			}
+			else{
+				
+				$('#right_m').show();
+			$('#right_m').delay(4000).animate({
+					opacity:0
+					},1000);
+				$('#right_m').css(
+					"opacity","1"
+					);	
+				$('#right_m').hide(2000);	
+				$('#wapper').delay(3500).animate({opacity:0.3});
+				$('#wapper').delay(10).animate({opacity:1});	
+				}	
+		});
+	
+	
+	$('#ans2').click(function(){
+		
+		if($(this).attr('value')==1){
+			$('#left_m').show();
+			$('#left_m').delay(2500).animate({
+					opacity:0
+					},1000);
+				$('#left_m').css(
+					"opacity","1"
+					);	
+				$('#left_m').hide(2000);	
+				$('#wapper').delay(2700).animate({opacity:0.3});
+				$('#wapper').delay(10).animate({opacity:1});
+			}
+			else{
+				
+				$('#right_m').show();
+			$('#right_m').delay(3500).animate({
+					opacity:0
+					},1000);
+				$('#right_m').css(
+					"opacity","1"
+					);	
+				$('#right_m').hide(2000);	
+				$('#wapper').delay(3500).animate({opacity:0.3});
+				$('#wapper').delay(10).animate({opacity:1});	
+				}	
+		});
+		
+		$('#ans3').click(function(){
+		
+		if($(this).attr('value')==1){
+			$('#left_m').show();
+			$('#left_m').delay(2500).animate({
+					opacity:0
+					},1000);
+				$('#left_m').css(
+					"opacity","1"
+					);	
+				$('#left_m').hide(2000);	
+				$('#wapper').delay(2700).animate({opacity:0.3});
+				$('#wapper').delay(10).animate({opacity:1});
+			}
+			else{
+				
+				$('#right_m').show();
+			$('#right_m').delay(3500).animate({
+					opacity:0
+					},1000);
+				$('#right_m').css(
+					"opacity","1"
+					);	
+				$('#right_m').hide(2000);	
+				$('#wapper').delay(3500).animate({opacity:0.3});
+				$('#wapper').delay(10).animate({opacity:1});	
+				}	
+		});
+		
+		$('#ans4').click(function(){
+		
+		if($(this).attr('value')==1){
+			$('#left_m').show();
+			$('#left_m').delay(2500).animate({
+					opacity:0
+					},1000);
+				$('#left_m').css(
+					"opacity","1"
+					);	
+				$('#left_m').hide(2000);	
+				$('#wapper').delay(2700).animate({opacity:0.3});
+				$('#wapper').delay(10).animate({opacity:1});
+			}
+			else{
+				
+				$('#right_m').show();
+			$('#right_m').delay(3500).animate({
+					opacity:0
+					},1000);
+				$('#right_m').css(
+					"opacity","1"
+					);	
+				$('#right_m').hide(2000);	
+				$('#wapper').delay(3500).animate({opacity:0.3});
+				$('#wapper').delay(10).animate({opacity:1});	
+				}	
+		});
+		
+		
+	
+	});
+
+</script>
+</head>
+
+<body>
+<div id="wapper">
+<div id="left" ><img src="pic/player.png"> </div>
+<div id="right"> <img src="pic/ms.png"></div>
+<div id="bg"><img src="pic/game_bg.jpg"></div>
+<div id="right_m"  >
+<object  height="600px"  width="600px" type="application/x-shockwave-flash" wmode="transparent"   > 
+         <param  name="movie"  value="pic/ms_m.swf"></param>
+         </object></div>
+ <div id="left_m"  >
+<object  height="700px"  width="700px" type="application/x-shockwave-flash" wmode="transparent"   > 
+         <param  name="movie"  value="pic/player_m.swf"></param>
+         </object></div>
+        
+          
+         
+</div><div id="question1">asdasdasdssssasdasdsd?</div>
+ <div id="question"><img src="pic/question.png"><div id="ans">
+          <div id="ans1" value="1">123123123222</div>
+          <div id="ans2" value="0">1231231232</div>
+          <div id="ans3" value="0">123123123</div>
+          <div id="ans4" value="0">123123123123</div></div>
+          </div>
+</body>
+</html>

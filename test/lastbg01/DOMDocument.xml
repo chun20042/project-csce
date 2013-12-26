@@ -1,0 +1,323 @@
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" width="1350" height="700" currentTimeline="1" xflVersion="2.2" creatorInfo="Adobe Flash Professional CS6" platform="Windows" versionInfo="Saved by Adobe Flash Windows 12.0 build 481" majorVersion="12" buildNumber="481" viewAngle3D="103.904943651285" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" autoSaveEnabled="true" autoSaveHasPrompted="true">
+     <folders>
+          <DOMFolderItem name="1.psd 資源" itemID="528a5476-0000021e"/>
+          <DOMFolderItem name="2.psd 資源" itemID="528a55d6-0000029c"/>
+          <DOMFolderItem name="利昂LOGO.psd 資源" itemID="528a52d2-000001d3"/>
+          <DOMFolderItem name="開新影像.psd 資源" itemID="528a5613-000002b0"/>
+     </folders>
+     <media>
+          <DOMBitmapItem name="heart.png" itemID="528a5352-0000025a" sourceExternalFilepath="../../../Users/CHUN/Documents/GitHub/CSCE-Project/Public/pic/button/buttonbook/LIBRARY/heart.png" sourceLastImported="1384795386" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="heart.png" bitmapDataHRef="M 17 1384870015.dat" frameRight="6400" frameBottom="4800"/>
+          <DOMBitmapItem name="homepage7.png" itemID="528b705b-000005f3" sourceExternalFilepath="../lastbg/LIBRARY/homepage7.png" sourceLastImported="1384869866" externalFileSize="964897" originalCompressionType="lossless" quality="50" href="homepage7.png" bitmapDataHRef="M 2 1384869900.dat" frameRight="27000" frameBottom="14000"/>
+          <DOMBitmapItem name="RD.png" itemID="528b72c4-00000636" sourceExternalFilepath="../lastbg/LIBRARY/RD.png" sourceLastImported="1384870410" externalFileSize="2019480" originalCompressionType="lossless" quality="50" href="RD.png" bitmapDataHRef="M 18 1384870433.dat" frameRight="40000" frameBottom="40000"/>
+          <DOMBitmapItem name="公主LOGO  按鈕2.png" itemID="528a5a7d-00000325" sourceExternalFilepath="../lastbg/公主LOGO  按鈕2.png" sourceLastImported="1382469067" originalCompressionType="lossless" quality="50" href="公主LOGO  按鈕2.png" bitmapDataHRef="M 13 1384870015.dat" frameRight="13800" frameBottom="12300"/>
+          <DOMBitmapItem name="皇后(6)LOGO 按鈕2.png" itemID="528a55d6-000002a8" sourceExternalFilepath="F:/皇后(6)LOGO 按鈕2.png" sourceLastImported="1382468116" originalCompressionType="lossless" quality="50" href="皇后(6)LOGO 按鈕2.png" bitmapDataHRef="M 9 1384870015.dat" frameRight="13800" frameBottom="12300"/>
+          <DOMBitmapItem name="娜亞LOGO  按鈕2.png" itemID="528a53f6-00000273" sourceExternalFilepath="../../../Users/CHUN/Documents/GitHub/CSCE-Project/Public/pic/button/buttonbook/LIBRARY/娜亞LOGO  按鈕2.png" sourceLastImported="1382469208" originalCompressionType="lossless" quality="50" href="娜亞LOGO  按鈕2.png" bitmapDataHRef="M 16 1384870015.dat" frameRight="13800" frameBottom="12300"/>
+          <DOMBitmapItem name="2.psd 資源/圖層1" itemID="528a55d6-000002a2" sourceLastImported="1384797654" originalCompressionType="lossless" quality="90" href="2.psd 資源/圖層1" bitmapDataHRef="M 14 1384870015.dat" frameRight="1760" frameBottom="1960"/>
+          <DOMBitmapItem name="開新影像.psd 資源/圖層1" itemID="528a5613-000002b6" sourceLastImported="1384797715" originalCompressionType="lossless" quality="90" href="開新影像.psd 資源/圖層1" bitmapDataHRef="M 11 1384870015.dat" frameRight="820" frameBottom="840"/>
+          <DOMBitmapItem name="1.psd 資源/圖層1" itemID="528a5476-00000224" sourceLastImported="1384797302" originalCompressionType="lossless" quality="90" href="1.psd 資源/圖層1" bitmapDataHRef="M 7 1384870015.dat" frameRight="820" frameBottom="900"/>
+          <DOMBitmapItem name="利昂LOGO.psd 資源/圖層12" itemID="528a52d2-000001d6" sourceLastImported="1384796882" originalCompressionType="lossless" quality="90" href="利昂LOGO.psd 資源/圖層12" bitmapDataHRef="M 6 1384870015.dat" frameRight="30700" frameBottom="33860"/>
+          <DOMBitmapItem name="利昂LOGO.psd 資源/圖層13" itemID="528a52d2-000001df" sourceLastImported="1384796882" originalCompressionType="lossless" quality="90" href="利昂LOGO.psd 資源/圖層13" bitmapDataHRef="M 3 1384870015.dat" frameRight="27900" frameBottom="5980"/>
+          <DOMBitmapItem name="利昂LOGO.psd 資源/圖層14" itemID="528a52d2-000001dc" sourceLastImported="1384796882" originalCompressionType="lossless" quality="90" href="利昂LOGO.psd 資源/圖層14" bitmapDataHRef="M 4 1384870015.dat" frameRight="11840" frameBottom="12340"/>
+          <DOMBitmapItem name="利昂LOGO.psd 資源/圖層15" itemID="528a52d2-000001d9" sourceLastImported="1384796882" originalCompressionType="lossless" quality="90" href="利昂LOGO.psd 資源/圖層15" bitmapDataHRef="M 5 1384870015.dat" frameRight="8120" frameBottom="14400"/>
+          <DOMBitmapItem name="2.psd 資源/圖層2" itemID="528a55d6-0000029f" sourceLastImported="1384797654" originalCompressionType="lossless" quality="90" href="2.psd 資源/圖層2" bitmapDataHRef="M 15 1384870015.dat" frameRight="2000" frameBottom="2200"/>
+          <DOMBitmapItem name="開新影像.psd 資源/圖層2" itemID="528a5613-000002b3" sourceLastImported="1384797715" originalCompressionType="lossless" quality="90" href="開新影像.psd 資源/圖層2" bitmapDataHRef="M 12 1384870015.dat" frameRight="1060" frameBottom="1080"/>
+          <DOMBitmapItem name="1.psd 資源/圖層2" itemID="528a5476-00000221" sourceLastImported="1384797302" originalCompressionType="lossless" quality="90" href="1.psd 資源/圖層2" bitmapDataHRef="M 8 1384870015.dat" frameRight="940" frameBottom="1060"/>
+          <DOMBitmapItem name="點陣圖 13" itemID="528a58f1-000002dc" sourceLastImported="1384798449" originalCompressionType="lossless" quality="50" href="點陣圖 13" bitmapDataHRef="M 10 1384870015.dat" frameRight="4140" frameBottom="780"/>
+     </media>
+     <symbols>
+          <Include href="1.psd.xml" itemIcon="1" loadImmediate="false" itemID="528a5476-00000225" lastModified="1384797436"/>
+          <Include href="2.psd.xml" itemIcon="1" loadImmediate="false" itemID="528a55d6-000002a3" lastModified="1384797654"/>
+          <Include href="21.xml" itemIcon="1" loadImmediate="false" itemID="528b5a39-00000580" lastModified="1384864313"/>
+          <Include href="book.xml" itemIcon="0" loadImmediate="false" itemID="528b59f8-00000572" lastModified="1384864248"/>
+          <Include href="book1.xml" itemIcon="1" loadImmediate="false" itemID="528b59ff-00000573" lastModified="1384864255"/>
+          <Include href="heart.xml" loadImmediate="false" itemID="528a5363-0000025d" lastModified="1384798304"/>
+          <Include href="元件 1.xml" loadImmediate="false" itemID="528a52dd-000001e4" lastModified="1384800292"/>
+          <Include href="元件 2.xml" itemIcon="0" loadImmediate="false" itemID="528a5530-00000237" lastModified="1384797550"/>
+          <Include href="元件 3.xml" loadImmediate="false" itemID="528a55b8-0000029a" lastModified="1384798804"/>
+          <Include href="元件 4.xml" itemIcon="0" loadImmediate="false" itemID="528a595f-000002ed" lastModified="1384798666"/>
+          <Include href="元件 5.xml" loadImmediate="false" itemID="528a5a72-00000321" lastModified="1384799109"/>
+          <Include href="元件 6.xml" itemIcon="0" loadImmediate="false" itemID="528a5ba3-0000033d" lastModified="1384799174"/>
+          <Include href="利昂LOGO.psd.xml" itemIcon="1" loadImmediate="false" itemID="528a52d2-000001e0" lastModified="1384796882"/>
+          <Include href="抖.xml" loadImmediate="false" itemID="528a555f-0000028f" lastModified="1384798337"/>
+          <Include href="開新影像.psd.xml" itemIcon="1" loadImmediate="false" itemID="528a5613-000002b7" lastModified="1384798022"/>
+          <Include href="補間動畫 1.xml" itemIcon="1" loadImmediate="false" itemID="528a53a3-00000207" lastModified="1384797091"/>
+          <Include href="補間動畫 2.xml" itemIcon="1" loadImmediate="false" itemID="528a53a3-0000020a" lastModified="1384797091"/>
+          <Include href="補間動畫 3.xml" itemIcon="1" loadImmediate="false" itemID="528a53a7-0000020d" lastModified="1384797095"/>
+          <Include href="補間動畫 4.xml" itemIcon="1" loadImmediate="false" itemID="528a53a7-00000210" lastModified="1384797095"/>
+          <Include href="補間動畫 5.xml" itemIcon="1" loadImmediate="false" itemID="528a53aa-00000213" lastModified="1384797098"/>
+          <Include href="補間動畫 6.xml" itemIcon="1" loadImmediate="false" itemID="528a53ad-00000216" lastModified="1384797101"/>
+          <Include href="補間動畫 7.xml" itemIcon="1" loadImmediate="false" itemID="528a54ca-00000235" lastModified="1384797451"/>
+          <Include href="補間動畫 8.xml" itemIcon="1" loadImmediate="false" itemID="528a592c-000002e1" lastModified="1384798508"/>
+          <Include href="補間動畫 9.xml" itemIcon="1" loadImmediate="false" itemID="528a592c-000002e4" lastModified="1384798508"/>
+          <Include href="補間動畫 10.xml" itemIcon="1" loadImmediate="false" itemID="528a592e-000002e7" lastModified="1384798510"/>
+          <Include href="補間動畫 11.xml" itemIcon="1" loadImmediate="false" itemID="528a5930-000002ea" lastModified="1384798512"/>
+          <Include href="補間動畫 12.xml" itemIcon="1" loadImmediate="false" itemID="528a5ac2-0000032a" lastModified="1384798914"/>
+          <Include href="補間動畫 13.xml" itemIcon="1" loadImmediate="false" itemID="528a5ac2-0000032d" lastModified="1384798914"/>
+          <Include href="補間動畫 14.xml" itemIcon="1" loadImmediate="false" itemID="528a5ac5-00000330" lastModified="1384798917"/>
+          <Include href="補間動畫 15.xml" itemIcon="1" loadImmediate="false" itemID="528a5ac7-00000333" lastModified="1384798919"/>
+          <Include href="補間動畫 16.xml" itemIcon="1" loadImmediate="false" itemID="528b7ca1-0000063d" lastModified="1384873121"/>
+          <Include href="補間動畫 17.xml" itemIcon="1" loadImmediate="false" itemID="528b7ca1-00000640" lastModified="1384873121"/>
+          <Include href="補間動畫12 4.xml" itemIcon="1" loadImmediate="false" itemID="528b5a47-00000583" lastModified="1384864327"/>
+     </symbols>
+     <timelines>
+          <DOMTimeline name="場景 1" currentFrame="19">
+               <layers>
+                    <DOMLayer name="Actions" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="19" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="19" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[
+/* 在此影格停止
+Flash 時間軸會在插入此程式碼的影格停止/暫停。
+亦可用來停止/暫停影片片段的時間軸。
+*/
+
+stop();
+]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="圖層 2" color="#9933CC" locked="true">
+                         <frames>
+                              <DOMFrame index="0" duration="19" keyMode="15872">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="補間動畫 16" selected="true" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="1084.45" ty="432.45"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="19" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="補間動畫 17" selected="true" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="1084.45" ty="432.45"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="資料夾 1" color="#FF800A" layerType="folder"/>
+                    <DOMLayer name="len_btn" color="#FF800A" parentLayerIndex="2" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="19" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[len.addEventListener(MouseEvent.CLICK, len1);
+
+function len1(e:MouseEvent):void {
+	var url: URLRequest=new URLRequest("http://www.google.com.tw")
+	navigateToURL(url,"_blank");
+	}]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="19" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="len" color="#9933CC" parentLayerIndex="2" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="19" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="元件 2" name="len" symbolType="button">
+                                             <matrix>
+                                                  <Matrix a="0.377212524414063" d="0.37762451171875" tx="960.85" ty="-82"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="19" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="元件 2" name="len" symbolType="button">
+                                             <matrix>
+                                                  <Matrix a="0.377212524414063" d="0.37762451171875" tx="960.85" ty="195.9"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="commend_btn" color="#FF4FFF" parentLayerIndex="2" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="19" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[command.addEventListener(MouseEvent.CLICK, command1);
+
+function command1(e:MouseEvent):void {
+	var url: URLRequest=new URLRequest("http://www.google.com.tw")
+	navigateToURL(url,"_blank");
+	}]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="19" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="commend" color="#FF800A" parentLayerIndex="2" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="19" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="元件 4" name="command" symbolType="button">
+                                             <matrix>
+                                                  <Matrix a="0.415802001953125" d="0.4151611328125" tx="524.05" ty="-77.9"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="0.25" y="-3.5"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="19" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="元件 4" name="command" symbolType="button">
+                                             <matrix>
+                                                  <Matrix a="0.415802001953125" d="0.4151611328125" tx="580.05" ty="193.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="0.25" y="-3.5"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="song_btn" color="#9933CC" parentLayerIndex="2" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="19" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[song.addEventListener(MouseEvent.CLICK, gogo);
+
+function gogo(e:MouseEvent):void {
+	var url: URLRequest=new URLRequest("http://www.yahoo.com.tw")
+	navigateToURL(url,"_blank");
+	}]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="19" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="song" color="#4FFF4F" parentLayerIndex="2" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="19" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="元件 6" name="song" symbolType="button">
+                                             <matrix>
+                                                  <Matrix a="0.415771484375" d="0.415298461914063" tx="1112.7" ty="-79.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="0.25" y="-0.6"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="19" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="元件 6" name="song" symbolType="button">
+                                             <matrix>
+                                                  <Matrix a="0.415771484375" d="0.415298461914063" tx="1111.05" ty="110.4"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="0.25" y="-0.6"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="book_btn" color="#808080" parentLayerIndex="2" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="19" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[book.addEventListener(MouseEvent.CLICK, book1);
+
+function book1(e:MouseEvent):void {
+	var url: URLRequest=new URLRequest("http://www.google.com.tw")
+	navigateToURL(url,"_blank");
+	}]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="19" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="book" color="#4F80FF" parentLayerIndex="2" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="19" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="book" name="book" symbolType="button">
+                                             <matrix>
+                                                  <Matrix a="0.4375" d="0.437149047851563" tx="755.05" ty="-77.55"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="19" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="book" name="book" symbolType="button">
+                                             <matrix>
+                                                  <Matrix a="0.4375" d="0.437149047851563" tx="755.05" ty="110.4"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="圖層 1" color="#4FFF4F">
+                         <frames>
+                              <DOMFrame index="0" duration="19" keyMode="9728">
+                                   <elements>
+                                        <DOMBitmapInstance libraryItemName="homepage7.png"/>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="19" keyMode="9728">
+                                   <elements>
+                                        <DOMBitmapInstance libraryItemName="homepage7.png"/>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timelines>
+     <persistentData>
+          <PD n="在此影格停止" t="i" v="3"/>
+     </persistentData>
+     <PrinterSettings/>
+     <publishHistory>
+          <PublishItem publishSize="958477" publishTime="1384873883"/>
+          <PublishItem publishSize="958479" publishTime="1384873858"/>
+     </publishHistory>
+</DOMDocument>

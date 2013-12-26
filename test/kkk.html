@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <link rel="css/homepage.css" type="text/css" href="">
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+        <script>
+        var Submit=function(){
+            var URLs="back.php";
+            
+            $.ajax({
+                url: URLs,
+                data: $('#sentToBack').serialize(),
+                type:"POST",
+                dataType:'text',
+                success: function(msg){
+                    alert(msg);
+                },
+                beforeSend:function(){
+                    $('#loadingIMG').show();
+                },
+                complete:function(){
+                    $('#loadingIMG').hide();
+                },
+                error:function(xhr, ajaxOptions, thrownError){ 
+                    alert(xhr.status); 
+                    alert(thrownError); 
+                }
+            });
+        }
+
+
+        </script>
+    </head>
+    <body>
+     <form id="sentToBack">
+            <input type="text" name="Text"/> 
+            <input type="button"  value="送出" onClick="Submit()"/>
+        </form>
+        <div id="loadingIMG" style="display:none"><object type="application/x-shockwave-flash" > 
+    <param name="movie" value="00.swf"></param> 
+    <param name="wmode" value="opaque"></param> 
+</object></div>
+    </body>
+</html>

@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        <title>Experimental Page Layout Inspired by Flipboard</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> 
+        <meta name="description" content="Experimental Page Layout Inspired by Flipboard" />
+        <meta name="keywords" content="flip, pages, flipboard, layout, responsive, web, web design, grid, ipad, jquery, css3, 3d, perspective, transitions, transform" />
+        <meta name="author" content="" />
+        <link rel="shortcut icon" href="../favicon.ico"> 
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300,300italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+		<script type="text/javascript" src="js/modernizr.custom.08464.js"></script>
+		<script id="pageTmpl" type="text/x-jquery-tmpl">
+			<div class="${theClass}" style="${theStyle}">
+				<div class="front">
+					<div class="outer">
+						<div class="content" style="${theContentStyleFront}">
+							<div class="inner">{{html theContentFront}}</div>
+						</div>
+					</div>
+				</div>
+				<div class="back">
+					<div class="outer">
+						<div class="content" style="${theContentStyleBack}">
+							<div class="inner">{{html theContentBack}}</div>
+						</div>
+					</div>
+				</div>
+			</div>			
+		</script>
+    </head>
+    <body>
+		
+		<header class="main-title">
+			<h1>Data Structure <strong></strong></h1>
+			<p> </p>
+           
+			<p><strong></strong></p>
+            
+            
+		</header>
+		
+		<div id="flip" class="container">
+		
+			<div class="f-page f-cover">
+				<div class="cover-elements">
+					
+			<h1> <span><a href="http://flipboard.com/"></a></span></h1>		
+					
+				</div>
+				
+			</div>
+			
+			<div class="f-page">
+				<div class="f-title">
+					<a href="../studying.php">BACK</a>
+					<h2>Data Structure</h2>
+					<a href="../studying.php">Back</a>
+				</div>
+				<div class="box w-50 h-50 box-b-r title-top box-img-left">
+					<div class="img-cont img-01"></div>
+					<h3>1.1 Arrays<span>2013/12/1</span></h3>
+					<p> definition <br>
+Array – a list of data items , 用同個名字表示, 在記憶體佔連續的位置, 每一個 data item用array’s  name 和 index 表示<br/>
+例如: scores 是一個有100個元素的陣列, 每個元素是一個整數變數,這些元素就用score[1], score[2],…., score[99], score[100]來表示 </div>
+							<div class="box w-50 h-50 title-top">
+
+					
+					<h3><span>2013/12/01</span></h3>
+					<p>如果不是使用array而是使用個別的變數來儲存這100個數, 那麼將會有100個變數(score1, score2, score3 ,...... , score99, score100)這樣要寫程是就會很麻煩 (Fig11.1 11.2,投影片3,4)需要使用到300個指令，但是如果使用陣列來儲存這100個變數，做相同的事情則程是碼可寫為  <br/> 
+for i ← 1 to 100 <br/>
+read scores [i] <br/>
+end for  <br/>
+
+for i ← 1 to 100  <br/>
+process scores [i] <br/>
+end for  <br/>
+
+for i ← 1 to 100  <br/>
+write scores [i]  <br/>
+end for  <br/>
+只需要9行指令 <br/>
+
+</p>
+				</div>
+				<<div class="box w-50 h-50 title-top">
+					
+					<h3><span>2013/12/01</span></h3>
+					<p>
+★ 第二種寫法的程式的寫法容易修改,但是執行時間並不會比第一種短	<br>
+★ Array的名稱:scores  <br>
+array element的名稱:score[1], score[2] <br>
+★ 一維陣列(one-dimensional array)的memory layout
+
+<table width="200" border="1">
+  <tr>
+    <td>scores[1]</td>
+    <td>Scores[2]</td>
+    <td>……</td>
+    <td>Scores[100]</td>
+  </tr>
+</table>
+
+			
+
+</p>
+				</div>
+				<div class="box w-50 h-50 title-top box-img-left">
+<div class="img-cont img-02"></div>
+					<h3><span>2013/12/01</span></h3>
+					<p>
+★ Two-dimensiional array(二維陣列): <br/>
+  row: first dimension <br/>
+  column : second dimension <br/>
+
+</p>
+				</div>
+				
+			</div>
+			
+			<div class="f-page">
+				<div class="f-title">
+					<a href="../studying.php">c</a>
+					<h2>Incredible Spacenews</h2>
+					<a href="../studying.php">Back</a>
+				</div>
+				<div class="box w-50 h-50 title-top box-img-left">
+					<div class="img-cont img-03"></div>
+					<h3> <span>2013/12/01</span></h3>
+					<p>★ Two-dimensiional array 的memory layout<br/>
+(1) row-major ---一個row 一個row依序儲存 <br/>
+(2)column-major---一個column 一個column依序儲存<br/>
+
+				</div>
+				<div class="box w-50 h-50 title-top">
+					
+					<h3>EXAMPLE <span>2013/12/01</span></h3>
+<p>Ex2.1：<br>
+把兩個數加起來的演算法之pseudocode<br>
+Sol：<br>
+Sum of two(first,second)<br>
+sum ← first + second<br>
+return sum <br>
+
+Ex2.2：<br>
+寫一個演算法把數值的分數改為pass/no pass(>=70分為pass，否則為no pass)<br>
+Sol：<br>
+PassNoPass(score)<br>
+If score >=70<br>
+Then grade ← “pass”<br>
+else grade ←”no pass”<br>
+return grade<br>
+Ex2.3：<br>
+寫一演算法把數值分數轉為letter grade(A , B , C , D or F)
+Sol：<br>
+LetterGrade(score)<br>
+If 100>=score>=90 then grade ← ’A’<br>
+If 89>=score>=80 then grade ← ’B’<br>
+If 79>=score>=70 then grade ← ’C’<br>
+If 69>=score>=60 then grade ← ’D’<br>
+If 59>=score>=0 then grade ← ’F’<br>
+return grade
+
+</p>
+				</div>
+				<div class="box w-50 h-50 box-b-r title-top">
+					<h3>Operation on array : searching, insertion, deletion, retrieval,traversal<span>2013/12/01</span></h3>
+					<p> 
+1.searching : sequential search 或binary search
+2.insertiom:有排序,要把某筆資料插入他應該在的位置(先用binary search 再用insertion)<br/>
+例如:現在陣列有從第1個位置到第30個位置共30個元素該筆資料經過search後已知要插入第8與第9之間那麼我們就要把該筆資料放入第9個位置
+程式如下 : <br/>
+for i ←30 to 9 setp -1<br/>
+array[i+1] ←array[i]<br/>
+   end for<br/>
+   array[i+1]←new Value<br/>
+	上面程式有一個前提;陣列至少31個位置
+
+</p>
+				</div>
+				<div class="box w-50 h-50 box-b-r title-top">
+					
+					<h3>2-4  A more formal definition <span>2013/12/01</span></h3>
+					<p>3.deletion:假如我們要把第9的資料delete掉,那麼我們可以把第10個到第30個資料一個個往前挪 
+程式 :<br/>
+ for I ←10 to 30 <br/>
+	     	array [i-1] ←array[i]<br/>
+		end for<br/>
+4.	retrieval:陣列是可以random access的,直接把所要的element抓出即可<br/>
+EX: retrievalValue ← array[9]
+
+</p>
+				</div>
+			</div>
+			
+			<div class="f-page">
+				<div class="f-title">
+					<a href="../studying.php">Back</a>
+					<h2>Incredible Spacenews</h2>
+					<a href="../studying.php">Back</a>
+				</div>
+				<div class="box w-50 h-50 box-b-r title-top">
+					<h3>NASA Statement on John Glenn Selection for Medal of Freedom <span>Published May 3, 2012</span></h3>
+					<p>5.	traversal of array
+例如:把陣列中的元素一個個讀進來、寫出去或是一個個叫出來做某種運算
+例:求平均 <br/>
+INPUT:一個陣列,裡面儲存n個實數  <br/>
+OUTPUT:這n個實數的平均值  <br/>
+Algorithm ArrayAverage(array,n)  <br/>
+sum ←0,0  <br/>
+for I ←1 to n  <br/>
+		sum←sum+array[i]  <br/>
+end for  <br/>
+averay ← sum/n  <br/>
+return average   <br/>
+★ 從上面可知,陣列適合作searching,retrieval與traversal但不適合作需要常常insert或delete的應用
+</p>
+				</div>
+				<div class="box w-50 h-50 box-img-left title-top">
+					<div class="img-cont img-04"></div>
+					<h3>1.2 RECODES <span>2013/12/01</span></h3>
+					<p>★一個record(記錄)包括數個fields(欄位),每個field用來儲存某種資料且每個field的資料型態可能不一樣,所有field合起來可以完整的表式某種資料 <br>
+例如:學生的資料可以用一個record表示這個record有3個field,一個field是id,是整數型態,一個是name,這是字串型態(string),另一個field是grade(分數),這是字元型態
+</p>
+				</div>
+				<div class="box w-50 h-50 box-img-left box-b-r title-top">
+					<div class="img-cont img-04"></div>
+					<h3>Coverage Set For Next Soyuz Space Station Crew Rotation <span>Published May 3, 2012</span></h3>
+					<p>★ record name : student 
+field names:三個fields的名字分別是student.id , student.name, student.grade <br/>
+每個field都是一個變數,所以可以儲存值<br/>
+例1.	student.id ←2005  <br/>
+student.name←”G.Boole” (字串用””)<br/>
+student.grade←’A’(字元用’’)<br/>
+例2.	fraction.numerator←13<br/>
+fraction.denominator←17<br/>
+</p>
+				</div>
+				<div class="box w-50 h-50 box-img-left title-top">
+					<div class="img-cont img-05"></div>
+					<h3> <span>2013/12/01</span></h3>
+					<p>★array of records : array的elements可以是records
+例如: 一班30個學生每個學生的資料可以用record來表示,則此班30個學生的資料就可以用一個含30個records的陣列<br/>
+例11.6 把資料assign給每一個field <br/>
+(student[1]).id ←1001 <br/>
+(student[1]).name ←“J.Aron” <br/>
+(student[1]).grade ←‘A’ <br/>
+….<br/>
+例11.7 用一個程式把資料輸入到每一個field <br/>
+for I ←1 to 30 <br/>
+	read(student[i]).id <br/>
+	read(student[i]).name <br/>
+	read(student[i]).grade <br/>
+end for <br/>
+</p>
+
+
+				</div>
+				
+			</div>
+			<div class="f-page">
+				<div class="f-title">
+					<a href="../studying.php">BACK</a>
+					<h2>Data Structure</h2>
+					<a href="../studying.php">Back</a>
+				</div>
+				<div class="box w-50 h-50 box-b-r title-top box-img-left">
+					<div class="img-cont img-06"></div>
+					<h3>1.3 Linked Lists<span>2013/12/1</span></h3>
+					<p> Linked list(串列)是一些records串在一起,每一個record包括兩個fields: data和link,
+data field存放資料,link則存放一個pointer,指向串列中這個record的下一個record  (pointer 是一個adress,就是下一個record的address) </div>
+							<div class="box w-50 h-50 title-top">
+
+					
+					<h3><span>2013/12/01</span></h3>
+					<p>★一個linked list 用一個pointer的變數(稱為head pointer)來表示,這個pointer
+變數放的就是linked list第一個record的位址<br>
+
+★如果這一個linked list是空的,則這個pointer的變數放得是null pointer 同樣在linked list的最後一個record的link field放的也是null pointer,表示沒有下一個record<br>了
+★在linked list中,每一個record稱為一個node	
+ 
+
+</p>
+				</div>
+					<div class="box w-50 h-50 box-b-r title-top box-img-left">
+					<div class="img-cont img-08"></div>
+					
+					<h3><span>2013/12/01</span></h3>
+					<p>
+★array 與 linked list 的比較<br>
+ ☆array在記憶中是佔連續的位置,相鄰的2個elements在記憶體中未必佔相鄰的位置;array的element是利用link field的pointer循序來存取(如圖)所以 linked list比array適合較大量的insertion與deletion 
+
+</p>
+				</div>
+				<div class="box w-50 h-50 title-top box-img-left">
+<div class="img-cont img-07"></div>
+					<h3><span>2013/12/01</span></h3>
+					<p>
+★linked list的名字與linked list中node的名字linked list的名字是用head pointer(point變數)的名字來表示linked list中node的名字則利用指向它的pointer來表示,例如p是一個pointer變數,p指向這個node(意即p放的就是這個node在記憶體中的位址),則這個node的兩個field就可表示為*P.data與*P.link(如圖) <br/>
+★operations on linked lists 
+★前面提到一個linked list的每一個node是一個record,包含兩個fields可能包刮好幾個fields,例如這data是學生資料包括id,name,與grade三個fields,
+但其中至少有一個field是可以用來作key的(例如id),但linked list也可以是不排序的 <br>
+
+</p>
+				</div>
+				
+			</div>
+			
+			
+  <div class="f-page">
+				<div class="f-title">
+					<a href="../studying.php">Back</a>
+					<h2>Data Structure</h2>
+					<a href="../studying.php">Back</a>
+				</div>
+				<div class="box w-50 h-50 title-top">
+					
+					<h3> <span>2013/12/01</span></h3>
+					<p>★接下來會提到5個operations: <br>
+1.	搜索某個node <br>
+2.	插入某個node <br>
+3.	刪除某個node <br>
+4.	取得某個node的資料<br>
+5.	把linked list每個node的資料做某種process <br>
+基本上這五個operation中只有insertion與deletion需要用到兩個pointers (pre 指向前一個node, cur指向目前的node)其他都只要一個pointer,但因為要insert與delete之前要先search所要insert的位置與所要delete的node,所以在search的演算法中也用兩個pointers <br>
+
+</p>
+				</div>
+				<div class="box w-50 h-50 title-top">
+					
+					<h3>1.	Searching a linked list  <span>2013/12/01</span></h3>
+<p>逐一移動pre與cur這兩個pointer,從linked list的頭到linked list的尾 <br>
+一開始&nbsp; pre ←null &nbsp;&nbsp;cur ←list&nbsp;,然後每一次<br>
+<table width="200" border="1">
+  <tr>
+    <td>pre ←cur &nbsp; 且&nbsp;  cur ←(*cur).link</td>
+  </tr>
+</table> <br>
+
+即可往後移一個node <br>
+例子: searching的四種情形(Fig 11.14,投影片34) <br>
+INPUT : a linked list named list , 要node的key值target <br>
+OUTPUT : 若flag = true 則要我的node 為 *cur,若flag = false 則找不到<br>
+Algorithm search Linked List(list, target, pre, flag ) <br>
+		pre ←null <br>
+		cur ←list <br>
+		while(cur != null and target  &lt; (*cur).data) <br>
+			pre ←cur <br>
+			cur ←(*cur).link <br>
+		end while <br>
+	if  cur=null <br>
+then flag ←false <br>
+else if(*cur).data=target <br>
+	   then flag ←true <br>
+	   else flag false <br>
+
+</p>
+				</div>
+				<div class="box w-50 h-50 box-b-r title-top">
+					<h3>2.	Inserting a node 所要插入的node為  
+共有四種情形
+<span>2013/12/01</span></h3>
+					<p> 
+2.	Inserting a node 所要插入的node為  
+共有四種情形 <br>
+(1)	Inserting into an empty list(空的list)   
+ <table width="200" border="1">
+  <tr>
+    <td>list ←new</td>
+  </tr>
+</table>
+                                 
+
+
+
+本來是list  <table width="20" border="1">
+  <tr>
+    <td>X</td>
+  </tr>
+</table> 插入這個空的node後便為
+
+
+
+</p>
+				</div>
+				<div class="box w-50 h-50 box-b-r title-top">
+					
+					<h3><span>2013/12/01</span></h3>
+					<p>(2)	Inserting at the beginning of the list (插入在list的前端) <br>
+(*new).link ←cur  and  list ←new <br>
+例子(Fig.11.15 , 投影片37)
+
+</p>
+				</div>
+			</div>
+                   
+            
+            
+            
+            
+            
+ 
+			
+            
+            
+         <div class="f-page">
+				<div class="f-title">
+					<a href="../studying.php">Back</a>
+					<h2>Data Structure</h2>
+					<a href="../studying.php">Back</a>
+				</div>
+				<div class="box w-50 h-50 title-top">
+					
+					<h3> <span>2013/12/01</span></h3>
+				  <p>INPUT : a linear list named list , target <br>
+	OUTPUT : 把key為target的node刪除後的新linked list <br>
+	Algorithm Delete Linked List (list, target) <br>
+		Search Linked List (list , target , pre, , cur , flag) //呼叫 <br>
+		If flag = false  then  return list //要刪除的node不存在 <br>
+		If pre = null <br>
+		then  list ←(*cur).link //刪除第一個node <br>
+		else (*pre).link ←(*cur).link //刪除中間或最後的node
+return list <br>
+
+</p>
+				</div>
+				<div class="box w-50 h-50 box-b-r title-top">
+				  <h3> <span>2013/12/01</span></h3>
+				  <p> 4.Retrieving a node (取出某個node的資料, 例如查詢) <br>
+INPUT : a linked list named list , target <br>
+OUTPUT:找出key值為target那個node的資料<br>
+Algorithm Retrieve Linked List (list , target) <br>
+Search Linked List (list , target) <br> 
+		If flag = false <br>
+		then return error //找不到node <br>
+		else return (*cur).data <br>
+
+ </p>
+				  </div>
+				<div class="box w-50 h-50 title-top">
+					
+				  <h3><span>2013/12/01</span></h3>
+<p>
+</p>
+				</div>
+				<div class="box w-50 h-50 box-b-r title-top">
+					
+				  <h3><span>2013/12/01</span></h3>
+					<p>(2)Deleting the middle or the last node(刪除中間或最後端的node) <br>
+(*pre).link ←(*cur).link
+
+
+</p>
+				</div>
+			</div>
+            
+			
+               			<div class="f-page">
+				<div class="f-title">
+					<a href="../studying.php">Back</a>
+					<h2>Data Structure</h2>
+					<a href="../studying.php">Back</a>
+				</div>
+				<div class="box w-50 h-50 title-top">
+					
+					<h3> <span>2013/12/01</span></h3>
+				  <p>(3)	Inserting at the end of list (插入在list的最後終端)
+<table width="300" border="1">
+  <tr>
+    <td>(*pre).link ←new  and  (*new).link ←null
+</td>
+  </tr>
+</table>
+
+</p>
+				</div>
+				<div class="box w-50 h-50 box-b-r title-top">
+				  <h3> <span>2013/12/01</span></h3>
+				  <p> (4)	Inserting in the maddle(插入在list的中間) 
+<table width="300" border="1">
+  <tr>
+    <td>*new).link ←cur  and  (*pre).link ←new</td>
+  </tr>
+</table> 
+ </p>
+				  </div>
+				<div class="box w-50 h-50 title-top">
+					
+				  <h3> 3.Deleting a node共有兩種情形<span>2013/12/01</span></h3>
+<p>(1)	Deleting the first node
+
+<table width="200" border="1">
+  <tr>
+    <td>List ←(*cur).link</td>
+  </tr>
+</table> </p>
+<p>
+此時 pre=null而cur指向一個node
+
+</p>
+				</div>
+				<div class="box w-50 h-50 box-b-r title-top">
+					
+				  <h3><span>2013/12/01</span></h3>
+					<p>(2)Deleting the middle or the last node(刪除中間或最後端的node) <br>
+(*pre).link ←(*cur).link
+
+
+</p>
+				</div>
+			</div>
+                    
+            
+            
+            
+            
+            
+            
+            
+               
+
+                      
+         
+         
+    <div class="f-page">
+				<div class="f-title">
+					<a href="../studying.php">Back</a>
+					<h2>Data Structure</h2>
+					<a href="../studying.php">Back</a>
+				</div>
+				<div class="box w-50 h-50 title-top">
+					
+					<h3> <span>2013/12/01</span></h3>
+				  <p>(3)Inserting at the end of list (插入在list的最後終端) <br>
+(*pre).link ←new  and  (*new).link ←null
+
+</p>
+				</div>
+				<div class="box w-50 h-50 box-b-r title-top">
+				  <h3> <span>2013/12/01</span></h3>
+				  <p>(4)	Inserting in the maddle(插入在list的中間)  <br>
+(*new).link ←cur  and  (*pre).link ←new
+ </p>
+				  </div>
+				<div class="box w-50 h-50 title-top">
+					
+				  <h3><span>2013/12/01</span></h3>
+<p>INPUT: a linked list named list ,target, a node pointed by new <br>
+OUTPUT : 插入*new這個node後的新linked list<br>
+Algorithm Insert Linked List(list , target, new) <br>
+	Search Linked List(list , target , pre , cur , flag) //呼叫search LinkedList <br>
+	if flag = true  them return list //要插入的node已存在 <br>
+	if list = null  <br>
+	then list ←new <br>
+		return list <br>
+	if pre = null  //插入在list的最前端 <br>
+	then  (*new)link ←cur  <br>
+ 	list ←new <br>
+		return list  <br>
+	if cur = null  //插入在list的最後端 <br>
+	then (*pre).link ←new <br>
+		(*new).link ←null <br>
+		return list  <br>
+	(*new).link cur  //插入list中間 <br>
+	(*pre).link ←new <br>
+	return list		<br>
+
+</p>
+				</div>
+				<div class="box w-50 h-50 box-b-r title-top">
+					
+				  <h3>3.Deleting a node共有兩種情形<span>2013/12/01</span></h3>
+					<p>(1)Deleting the first node <br>
+List ←(*cur).link <br>
+此時 pre=null而cur指向一個node <br>
+</p>
+				</div>
+			</div>         
+         
+   <div class="f-page">
+				<div class="f-title">
+					<a href="../studying.php">Back</a>
+					<h2>Data Structure</h2>
+					<a href="../studying.php">Back</a>
+				</div>
+				<div class="box w-50 h-50 title-top">
+					
+					<h3> <span>2013/12/01</span></h3>
+				  <p>(2)Deleting the middle or the last node(刪除中間或最後端的node) <br>
+(*pre).link ←(*cur).link  <br><br>
+INPUT : a linear list named list , target<br>
+OUTPUT : 把key為target的node刪除後的新linked list<br>
+Algorithm Delete Linked List (list, target)<br>
+Search Linked List (list , target , pre, , cur , flag) //呼叫<br>
+If flag = false  then  return list //要刪除的node不存在<br>
+		If pre = null<br>
+		then  list ←(*cur).link //刪除第一個node<br>
+		else (*pre).link ←(*cur).link //刪除中間或最後的node
+return list<br>
+
+
+</p>
+				</div>
+				<div class="box w-50 h-50 box-b-r title-top">
+				  <h3> <span>2013/12/01</span></h3>
+  <p>
+4.Retrieving a node (取出某個node的資料, 例如查詢)<br>
+INPUT : a linked list named list , target <br>
+OUTPUT:找出key值為target那個node的資料 <br>
+Algorithm Retrieve Linked List (list , target)<br>
+Search Linked List (list , target) <br>
+		If flag = false<br>
+		then return error //找不到node<br>
+		else return (*cur).data<br>
+
+ </p>
+				  </div>
+				<div class="box w-50 h-50 title-top">
+					
+				  <h3><span>2013/12/01</span></h3>
+<p>5.Traversing a linked list (把linked list每一個node都看過或對每一個node的資料做處理)<br>
+INPUT : a linked list named list <br>
+OUTPUT : 對此linked list每個node的資料做某種處理後的新linked list <br>
+Algorithm Traverse Linked List (list) <br>
+		walker ←list  //walker適依哦pointer變數 <br>
+		while walker != null <br>
+			process (*walker).data //對資料做某種處理 <br>
+			walker (*walker).link <br>
+		end while <br>
+		return list <br>
+
+</p>
+				</div>
+				<div class="box w-50 h-50 box-b-r title-top">
+					
+				  <h3>Linked list 的應用<span>2013/12/01</span></h3>
+					<p>Linked list特別適合使用在常常需要insert或delete某一record的應用,但當record數量很大時也不合適,因為要insert或delete前要先search,而linked list只能sequential search,不能binary search,所以search速度很慢
+</p>
+				</div>
+			</div>               
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+            <div class="f-page f-cover-back">
+				<div id="codrops-ad-wrapper">
+					
+				</div>
+			</div>
+		</div>
+	
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script type="text/javascript">
+				
+			var $container 	= $( '#flip' ),
+				$pages		= $container.children().hide();
+			
+			Modernizr.load({
+				test: Modernizr.csstransforms3d && Modernizr.csstransitions,
+				yep : ['js/jquery.tmpl.min.js','js/jquery.history.js','js/core.string.js','js/jquery.touchSwipe-1.2.5.js','js/jquery.flips.js'],
+				nope: 'css/fallback.css',
+				callback : function( url, result, key ) {
+					
+					if( url === 'css/fallback.css' ) {
+						$pages.show();
+					}
+					else if( url === 'js/jquery.flips.js' ) {
+						$container.flips();
+					}
+			
+				}
+			});
+				
+		</script>
+    </body>
+</html>

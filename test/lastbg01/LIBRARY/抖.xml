@@ -1,0 +1,57 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="抖" itemID="528a555f-0000028f" lastModified="1384798337">
+  <timeline>
+    <DOMTimeline name="抖" currentFrame="49">
+      <layers>
+        <DOMLayer name="圖層 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="4" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="補間動畫12 4" symbolType="graphic" loop="loop">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="4" duration="20" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="補間動畫12 4" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="1.02499389648438" d="1.02496337890625"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="24" duration="25" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="補間動畫12 4" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="1.02499389648438" d="1.02496337890625"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="49" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="補間動畫12 4" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="1.02499389648438" d="1.02496337890625"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
